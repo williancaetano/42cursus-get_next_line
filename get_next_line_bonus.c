@@ -6,10 +6,9 @@
 /*   By: wcaetano <wcaetano@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/02 11:44:02 by wcaetano          #+#    #+#             */
-/*   Updated: 2022/07/02 16:09:28 by wcaetano         ###   ########.fr       */
+/*   Updated: 2022/07/30 19:03:42 by wcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 
 #include "get_next_line_bonus.h"
 
