@@ -6,7 +6,7 @@
 /*   By: wcaetano <wcaetano@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/13 23:13:02 by wcaetano          #+#    #+#             */
-/*   Updated: 2022/06/22 10:58:13 by wcaetano         ###   ########.fr       */
+/*   Updated: 2022/07/30 23:02:34 by wcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,8 @@ char	*get_next_line(int fd)
 	static t_buffer	buffer;
 
 	line_buffer = NULL;
+	if (read(fd, NULL, 0) < 0 || FOPEN_MAX < fd)
+		return (NULL);
 	if (!buffer.last_read)
 		load_buffer(&buffer, read(fd, buffer.buffer, BUFFER_SIZE));
 	while (buffer.last_read > 0)

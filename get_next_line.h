@@ -6,7 +6,7 @@
 /*   By: wcaetano <wcaetano@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/22 14:49:48 by wcaetano          #+#    #+#             */
-/*   Updated: 2022/06/22 10:58:03 by wcaetano         ###   ########.fr       */
+/*   Updated: 2022/07/30 22:52:12 by wcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,7 @@
 
 # include <stdlib.h>
 # include <unistd.h>
+# include <stdio.h>
 
 typedef struct s_buffer {
 	char	buffer[BUFFER_SIZE];

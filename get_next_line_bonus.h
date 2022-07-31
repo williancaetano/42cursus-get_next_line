@@ -6,7 +6,7 @@
 /*   By: wcaetano <wcaetano@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/02 11:47:22 by wcaetano          #+#    #+#             */
-/*   Updated: 2022/07/02 16:14:17 by wcaetano         ###   ########.fr       */
+/*   Updated: 2022/07/30 22:33:30 by wcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,7 @@
 
 # include <stdlib.h>
 # include <unistd.h>
+# include <stdio.h>
 
 typedef struct s_buffer {
 	int		fd;
